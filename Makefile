@@ -12,3 +12,6 @@ lint:
 
 mypy:
 	poetry run mypy app/
+
+setup:
+	poetry install --no-root
